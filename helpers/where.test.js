@@ -1,6 +1,6 @@
 const { getWhere } = require("./where");
 
-describe("Tesing companies", () => {
+describe("Testing companies", () => {
     test("Get a company with 'of' in the name", ()=>{
         const { where, values } = getWhere({search : "of"}, "companies");
 
@@ -34,7 +34,7 @@ describe("Tesing companies", () => {
 
 });
 
-describe("Tesing jobs", () => {
+describe("Testing jobs", () => {
     test("Get a job title with 'b3' in the name", ()=>{
         const { where, values } = getWhere({search : "b3"}, "jobs");
 
